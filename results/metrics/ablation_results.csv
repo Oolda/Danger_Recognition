@@ -1,0 +1,6 @@
+Model Variant,ROC AUC,Accuracy,Normal Precision,Normal Recall,Normal F1,Anomaly Precision,Anomaly Recall,Anomaly F1,Parameters
+Untrained CNN + LSTM,0.4434,0.70,0.24,0.19,0.21,0.79,0.84,0.82,103296
+Trained CNN + LSTM,0.8850,0.84,0.86,0.81,0.83,0.83,0.87,0.85,103296
+Trained CNN + GRU,0.9044,0.84,0.85,0.82,0.84,0.84,0.86,0.85,80128
+Trained CNN + LSTM + Attention,0.9017,0.84,0.84,0.83,0.84,0.84,0.85,0.85,107584
+Trained CNN + Dense (No Temporal),0.9211,0.84,0.84,0.83,0.84,0.84,0.85,0.85,20768

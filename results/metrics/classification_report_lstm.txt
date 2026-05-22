@@ -1,0 +1,13 @@
+Model: Trained CNN + LSTM Autoencoder
+Corrected ROC AUC: 0.8850
+Optimized Alarm Threshold (Inverted Deviation): -1.627255e-05
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+Normal Sequence (0)       0.86      0.81      0.83      2496
+ Anomaly Threat (1)       0.83      0.87      0.85      2626
+
+           accuracy                           0.84      5122
+          macro avg       0.84      0.84      0.84      5122
+       weighted avg       0.84      0.84      0.84      5122

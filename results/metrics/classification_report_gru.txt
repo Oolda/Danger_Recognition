@@ -1,0 +1,15 @@
+Model: Trained CNN + GRU Autoencoder
+Validation MSE Mean: 0.00001528
+Validation MSE Std: 0.00000945
+ROC AUC: 0.9044
+Optimal Threshold: -1.512276e-05
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Normal (0)       0.85      0.82      0.84      2496
+ Anomaly (1)       0.84      0.86      0.85      2626
+
+    accuracy                           0.84      5122
+   macro avg       0.84      0.84      0.84      5122
+weighted avg       0.84      0.84      0.84      5122

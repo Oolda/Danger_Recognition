@@ -1,0 +1,16 @@
+Model: Trained CNN + Dense Autoencoder (No Temporal)
+Per-frame MSE shape: (5149,)
+Sequence scores shape: (5122,)
+Validation MSE Mean: 0.00000884
+ROC AUC: 0.9211
+Optimal Threshold: -8.804062e-06
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Normal (0)       0.84      0.83      0.84      2496
+ Anomaly (1)       0.84      0.85      0.85      2626
+
+    accuracy                           0.84      5122
+   macro avg       0.84      0.84      0.84      5122
+weighted avg       0.84      0.84      0.84      5122
