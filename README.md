@@ -301,7 +301,7 @@ The dense baseline achieved surprisingly strong ROC-AUC performance, highlightin
 
 ---
 
-## Updated Key Findings
+## Key Findings
 
 * CNN spatial pretraining produced the largest performance improvement across all experiments.
 * GRU achieved comparable performance to LSTM with fewer parameters.
