@@ -297,6 +297,8 @@ The dense baseline achieved surprisingly strong ROC-AUC performance, highlightin
 | Trained CNN + LSTM + Attention    |  0.9017 |     0.84 |      0.84 |       0.85 |
 | Trained CNN + Dense (No Temporal) |  0.9211 |     0.84 |      0.83 |       0.84 |
 
+> **Note:** “Untrained CNN” refers to the experiment where the spatial encoder was not properly pretrained before temporal modeling. As a result, the LSTM received weak spatial embeddings, leading to poor anomaly detection performance. The large performance difference between the untrained and trained variants shows the importance of CNN-based spatial feature extraction in the proposed pipeline.
+
 ---
 
 ## Updated Key Findings
